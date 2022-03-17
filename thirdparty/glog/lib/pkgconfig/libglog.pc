@@ -1,0 +1,10 @@
+prefix=C:/Program Files (x86)/glog
+exec_prefix=C:/Program Files (x86)/glog/bin
+libdir=C:/Program Files (x86)/glog/lib
+includedir=C:/Program Files (x86)/glog/include
+
+Name: libglog
+Description: Google Log (glog) C++ logging framework
+Version: 0.4.0
+Libs: -L${libdir} -lglog
+Cflags: -I${includedir}
