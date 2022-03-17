@@ -1,0 +1,4 @@
+新增操作：
+1：在robot_exceptions.h公用头文件中新增自己模块的Submodule（子模块定义），ExceptionType（异常类型的定义）
+2：每个模块新增一个接口，GetExceptionType(std::List<ExceptionNode>* exception_type_list);
+3: 当算法检测接口返回false时，外部调用GetExceptionType获取对应的异常信息，转换为json数组发送给pad端显示
