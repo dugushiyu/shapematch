@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subway_vision>
+    <subway>1</subway>
+    <outward>0</outward>
+    <device>5</device>
+    <focus_x0>988</focus_x0>
+    <focus_y0>571</focus_y0>
+    <roi_num>1</roi_num>
+    <roi_0>
+        <x>917</x>
+        <y>181</y>
+        <w>768</w>
+        <h>326</h>
+    </roi_0>
+</subway_vision>
